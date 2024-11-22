@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(142, 224, 197);
+}
+header{
+    background-color: rgb(207, 249, 249);
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 7%;
+}
+h1{
+    text-align: center;
+    margin-top: 80px;
+    font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+#logo{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.btn{
+    display: flex;
+    margin-left: 35%;
+    margin-right: 20%;
+}
+.btnProd{
+    background-color: rgb(97, 97, 228);
+    color: bisque;
+    width: 20%;
+    min-width: 80px;
+}
+.btnProd:hover{
+    background-color: rgb(58, 58, 205);
+    color: bisque;
+    width: 42%;
+    font-size: large;
+}
+.linkn{
+    color: bisque;
+}
+main{
+    background-color: rgb(212, 228, 243);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.IMGcar{
+    width: 35%;
+    height: auto;
+    margin-left: 35%;
+}
+h3{
+    margin-left: 5%;
+}
+.articulos{
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+}
+.card{
+    text-align: center;
+}
+.btn-primary {
+    text-align: center;
+}
+footer{
+    background-color: rgb(66, 66, 246);
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2;
+        font-size: 170%;
+    }
+    .div2 { grid-area: 2 / 1 / 3 / 2;
+        font-size: 170%;
+    }
+    .div3 { grid-area: 3 / 1 / 4 / 2; 
+        font-size: 170%;
+    }
+    .div4 { grid-area: 1 / 2 / 4 / 3; 
+        width: 60%;
+        height: auto;
+    }
+    .linkf{
+        color: black;
+    }
+@media(max-width:977px){
+    .articulos{
+        display: block;
+        justify-items: center;
+    }
+    .btn{
+        text-align: center;
+        display: block;
+    }
+    .parent{
+        display: block;
+    }
+}
+
